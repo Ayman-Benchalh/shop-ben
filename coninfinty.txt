@@ -1,0 +1,2 @@
+MySQL DB Name	MySQL User Name	MySQL Password	MySQL Host Name	PHPMyAdmin
+if0_34495577_gestion_pro	if0_34495577	(Your vPanel Password)	sql302.infinityfree.com

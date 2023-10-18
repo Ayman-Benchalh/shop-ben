@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container3{
+    width: 100%;
+    height: 100vh;
+    background-image: url(south-tyrol-8023224.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container3-1{
+    width: 100%;
+    height: 100vh;
+    background: #ffffff5a;
+}
+.container3-1-2{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container3-1-3{
+    width: 100%;
+    
+    height: 500px;
+    background: #263fbc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.section-contant3{
+    width: 100%;
+    height: 600px;
+    background-color: #c6b3ff;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-contant3 h1{
+    
+    color: #000000;
+    text-transform: uppercase;
+    padding: 15px;
+}
+.cont5{
+    width: 100%;
+    height: 400px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.con3{
+    width: 50%;
+    
+    
+}
+.con4{
+    width: 50%;
+   
+}
+label{
+    font-weight: 600;
+    font-size:20px;
+    color: #000000a6;
+    
+    padding: 5px 10px;
+}
+input{
+    width: 90%;
+    font-size: 17px;
+     border: none;
+     outline: none;
+     border-radius: 10px;
+     background-color: #eee;
+     margin: 15px;
+     padding: 20px;
+}
+.bbtn{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*.bbtn button{
+    width: 90%;
+    font-size: 17px;
+     border: none;
+     outline: none;
+     border-radius: 10px;
+     margin: auto;
+     padding: 20px;
+}*/
+.bbtn button{
+    width: 80%;
+    height: 60px;
+   
+    margin: auto;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #4942E4;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    transition: 0.5s ease;
+    color: #eee;
+   
+  }
+.bbtn  button:hover{
+    background-color: #4942E4;
+   
+    color: #fff;
+    box-shadow: #4a42e4c1 0px 54px 55px, #4a42e4c1 0px -12px 30px, #4a42e4c1 0px 4px 6px, #4a42e4c1 0px 12px 13px, #4a42e4c1 0px -3px 5px;
+  
+  }  
+  .foote{
+    text-align: center;
+ 
+  }
+  .foote p{
+    font-size: 17px;
+    font-weight: 600;
+    color: #000;
+    margin-top: 10px;
+  }
+  .foote p a{
+    text-decoration: none;
+    color: #4942E4;
+    letter-spacing: 1px;
+  }
+  /* message*/
+.message{
+    position: absolute;
+    top: 10px;
+    
+     color: #eee;
+     width:50% ;
+     text-align:center ;
+   }
+   .message h2{
+     font-size: 20px;
+     padding: 15px;
+     border: 2px solid crimson;
+   border-radius: 10px;
+   
+   }
+
+   /* scrol bar */
+
+::-webkit-scrollbar{
+    width: 1em;
+    height: 0.5em;
+}
+::-webkit-scrollbar-thumb{
+background-color:#4b5cf2a2;
+border-radius: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(187, 187, 187, 0.751);
+    border-radius: 2px;
+}
+
+
+
+
+/*media query */
+
+
+@media (min-width: 1200px)and (max-width: 1500px) {
+    
+  }
+  @media (min-width:900px) and (max-width: 1200px){
+  
+   
+    
+   
+  
+  }
+  @media (min-width:768px ) and (max-width: 900px) {
+  
+  
+  
+  
+  }
+  @media (min-width: 600px) and (max-width: 768px){
+  
+  
+    
+    
+  
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+    .container3{
+        width: 100%;
+        height: auto;
+        background-image: url(south-tyrol-8023224.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+  
+    .container3-1{
+        width: 100%;
+        height: auto;
+        background: #ffffff5a;
+    }
+    .container3-1-2{
+        width:100%;
+        height: auto;
+        margin: auto;
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container3-1-3{
+        width: 100%;
+        
+        height: 100%;
+        background: #8b8b8b00;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .section-contant3{
+        width: 100%;
+        height: auto;
+        margin: 25px 0;
+        padding: 10px;
+        background-color: #c6b3ff;
+        border-radius: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .section-contant3 h1{
+        
+        color: #000000;
+        text-transform: uppercase;
+        padding: 15px;
+    }
+    .cont5{
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .con3{
+        width: 100%;
+        
+        
+    }
+    .con4{
+        width: 100%;
+       
+    }
+    label{
+        font-weight: 600;
+        font-size:20px;
+        color: #000000a6;
+        
+        padding: 5px 10px;
+    }
+    input{
+        width: 90%;
+        font-size: 17px;
+         border: none;
+         outline: none;
+         border-radius: 10px;
+         background-color: #eee;
+         margin: 15px;
+         padding: 20px;
+    }
+    .bbtn{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*.bbtn button{
+        width: 90%;
+        font-size: 17px;
+         border: none;
+         outline: none;
+         border-radius: 10px;
+         margin: auto;
+         padding: 20px;
+    }*/
+    .bbtn button{
+        width: 80%;
+        height: 60px;
+       
+        margin: auto;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        background-color: #4942E4;
+        font-size: 25px;
+        font-weight: 500;
+        letter-spacing: 2px;
+        transition: 0.5s ease;
+        color: #eee;
+       
+      }
+    .bbtn  button:hover{
+        background-color: #4942E4;
+       
+        color: #fff;
+        box-shadow: #4a42e4c1 0px 54px 55px, #4a42e4c1 0px -12px 30px, #4a42e4c1 0px 4px 6px, #4a42e4c1 0px 12px 13px, #4a42e4c1 0px -3px 5px;
+      
+      }  
+      .foote{
+        text-align: center;
+     
+      }
+      .foote p{
+        font-size: 17px;
+        font-weight: 600;
+        color: #000;
+        margin-top: 10px;
+      }
+      .foote p a{
+        text-decoration: none;
+        color: #4942E4;
+        letter-spacing: 1px;
+      }
+      /* message*/
+    .message{
+        position: absolute;
+        top: 10px;
+        
+         color: #eee;
+         width:50% ;
+         text-align:center ;
+       }
+       .message h2{
+         font-size: 15px;
+         padding: 15px;
+         border: 2px solid crimson;
+       border-radius: 10px;
+       
+       }
+   
+    
+  }

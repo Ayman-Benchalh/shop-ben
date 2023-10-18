@@ -1,0 +1,807 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container2{
+    width: 100%;
+    height: 100vh;
+    
+    background-image: url(south-tyrol-8023224.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.section-contant-2{
+  width: 100%;
+  height: 100vh;
+  background: #ffffff52;
+
+}
+.section2{
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+ /* background: #ff232352;*/
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.section2-1{
+  width: 100%;
+  height: 500px;
+  background-color: #ffffff00;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.section2-1 .cont1{
+  width: 50%;
+  border-radius: 15px;
+  background-color: #eee;
+ 
+}
+.section2-1 .cont2{
+  width: 50%;
+ border-radius: 15px;
+  background-color: #c6b3ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.section2-1 .cont2 form{
+  background-color: #4a42e400;
+  width: 100%;
+  display: flex;
+
+ 
+  flex-direction: column;
+  
+}
+.section2-1 .cont2 h1{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.section2-1 .cont2 label{
+  font-weight: 600;
+font-size:20px;
+color: #000000a6;
+
+padding: 5px 10px;
+}
+.section2-1 .cont2 input{
+  width: 90%;
+ font-size: 19px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 20px;
+}
+
+.section2-1 .cont2 form button{
+  width: 80%;
+  height: 50px;
+  padding: 10px 15px;
+margin: auto;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #4942E4;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  transition: 0.5s ease;
+  color: #eee;
+  margin-bottom: 15px;
+}
+.section2-1 .cont2 button:hover{
+  background-color: #4942E4;
+ 
+  color: #fff;
+  box-shadow: #4a42e4c1 0px 54px 55px, #4a42e4c1 0px -12px 30px, #4a42e4c1 0px 4px 6px, #4a42e4c1 0px 12px 13px, #4a42e4c1 0px -3px 5px;
+
+}  
+.foote{
+  text-align: center;
+  padding: 0 5px ;
+}
+.foote p{
+  font-size: 17px;
+  font-weight: 600;
+  color: #000;
+  margin-top: 10px;
+}
+.foote p a{
+  text-decoration: none;
+  color: #4942E4;
+  letter-spacing: 1px;
+}
+/* message*/
+.message{
+ position: relative;
+ 
+  color: #eee;
+  width:80% ;
+  text-align:center ;
+}
+.message h2{
+  font-size: 20px;
+  padding: 15px;
+  border: 2px solid crimson;
+border-radius: 10px;
+
+}
+
+
+/* scrol bar */
+
+::-webkit-scrollbar{
+  width: 1em;
+  height: 0.5em;
+}
+::-webkit-scrollbar-thumb{
+background-color:#4b5cf2a2;
+border-radius: 5px;
+}
+::-webkit-scrollbar-track{
+  background-color: rgba(187, 187, 187, 0.751);
+  border-radius: 2px;
+}
+
+/*media query */
+
+
+@media (min-width: 1200px)and (max-width: 1500px) {
+  .section-contant-2{
+    width: 100%;
+    height: 100vh;
+    background: #ffffff52;
+  
+  }
+  .section2{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+   /* background: #ff232352;*/
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  .section2-1{
+    width: 100%;
+    height: 500px;
+    background-color: #ffffff00;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  .section2-1 .cont1{
+    width: 50%;
+    border-radius: 15px 0  0 15px;
+    background-color: #eee;
+   
+  }
+  .section2-1 .cont2{
+    width: 50%;
+   border-radius: 0 15px 15px 0 ;
+    background-color: #c6b3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  .section2-1 .cont2 form{
+    background-color: #4a42e400;
+    width: 100%;
+    display: flex;
+  
+   
+    flex-direction: column;
+    
+  }
+  .section2-1 .cont2 h1{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .section2-1 .cont2 label{
+    font-weight: 600;
+  font-size:20px;
+  color: #000000a6;
+  
+  padding: 5px 10px;
+  }
+  .section2-1 .cont2 input{
+    width: 90%;
+   font-size: 19px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 20px;
+  }
+  
+  .section2-1 .cont2 form button{
+    width: 80%;
+    height: 50px;
+    padding: 10px 15px;
+  margin: auto;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #4942E4;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    transition: 0.5s ease;
+    color: #eee;
+    margin-bottom: 15px;
+  }
+  .section2-1 .cont2 button:hover{
+    background-color: #4942E4;
+   
+    color: #fff;
+    box-shadow: #4a42e4c1 0px 54px 55px, #4a42e4c1 0px -12px 30px, #4a42e4c1 0px 4px 6px, #4a42e4c1 0px 12px 13px, #4a42e4c1 0px -3px 5px;
+  
+  }  
+  .foote{
+    text-align: center;
+    padding: 0 5px ;
+  }
+  .foote p{
+    font-size: 17px;
+    font-weight: 600;
+    color: #000;
+    margin-top: 10px;
+  }
+  .foote p a{
+    text-decoration: none;
+    color: #4942E4;
+    letter-spacing: 1px;
+  }
+  /* message*/
+  .message{
+   position: relative;
+   
+    color: #eee;
+    width:80% ;
+    text-align:center ;
+  }
+  .message h2{
+    font-size: 18px;
+    padding: 15px;
+    border: 2px solid crimson;
+  border-radius: 10px;
+  
+  }
+    
+   
+  
+}
+@media (min-width:900px) and (max-width: 1200px){
+
+  .section-contant-2{
+    width: 100%;
+    height: 100vh;
+    background: #ffffff52;
+  
+  }
+  .section2{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+   /* background: #ff232352;*/
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  .section2-1{
+    width: 100%;
+    height: 500px;
+    background-color: #ffffff00;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  .section2-1 .cont1{
+    width: 50%;
+    border-radius: 15px 0  0 15px;
+    background-color: #eee;
+   
+  }
+  .section2-1 .cont2{
+    width: 50%;
+   border-radius: 0 15px 15px 0 ;
+    background-color: #c6b3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  .section2-1 .cont2 form{
+    background-color: #4a42e400;
+    width: 100%;
+    display: flex;
+  
+   
+    flex-direction: column;
+    
+  }
+  .section2-1 .cont2 h1{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .section2-1 .cont2 label{
+    font-weight: 600;
+  font-size:20px;
+  color: #000000a6;
+  
+  padding: 5px 10px;
+  }
+  .section2-1 .cont2 input{
+    width: 90%;
+   font-size: 19px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 20px;
+  }
+  
+  .section2-1 .cont2 form button{
+    width: 80%;
+    height: 50px;
+    padding: 10px 15px;
+  margin: auto;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #4942E4;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    transition: 0.5s ease;
+    color: #eee;
+    margin-bottom: 15px;
+  }
+  .section2-1 .cont2 button:hover{
+    background-color: #4942E4;
+   
+    color: #fff;
+    box-shadow: #4a42e4c1 0px 54px 55px, #4a42e4c1 0px -12px 30px, #4a42e4c1 0px 4px 6px, #4a42e4c1 0px 12px 13px, #4a42e4c1 0px -3px 5px;
+  
+  }  
+  .foote{
+    text-align: center;
+    padding: 0 5px ;
+  }
+  .foote p{
+    font-size: 17px;
+    font-weight: 600;
+    color: #000;
+    margin-top: 10px;
+  }
+  .foote p a{
+    text-decoration: none;
+    color: #4942E4;
+    letter-spacing: 1px;
+  }
+  /* message*/
+  .message{
+   position: relative;
+   
+    color: #eee;
+    width:80% ;
+    text-align:center ;
+  }
+  .message h2{
+    font-size: 18px;
+    padding: 15px;
+    border: 2px solid crimson;
+  border-radius: 10px;
+  
+  }
+  
+  
+ 
+
+}
+@media (min-width:768px ) and (max-width: 900px) {
+ .section-contant-2{
+    width: 100%;
+    height: 100vh;
+    background: #ffffff52;
+  
+  }
+  .section2{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+   /* background: #ff232352;*/
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  .section2-1{
+    width: 100%;
+    height: 500px;
+    background-color: #ffffff00;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  .section2-1 .cont1{
+    width: 50%;
+    border-radius: 15px;
+    background-color: #eee;
+    display: none;
+  }
+  .section2-1 .cont2{
+    width: 100%;
+   border-radius: 15px;
+    background-color: #c6b3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  .section2-1 .cont2 form{
+    background-color: #4a42e400;
+    width: 100%;
+    display: flex;
+  
+   
+    flex-direction: column;
+    
+  }
+  .section2-1 .cont2 h1{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .section2-1 .cont2 label{
+    font-weight: 600;
+  font-size:20px;
+  color: #000000a6;
+  
+  padding: 5px 10px;
+  }
+  .section2-1 .cont2 input{
+    width: 90%;
+   font-size: 19px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 20px;
+  }
+  
+  .section2-1 .cont2 form button{
+    width: 80%;
+    height: 50px;
+    padding: 10px 15px;
+  margin: auto;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #4942E4;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    transition: 0.5s ease;
+    color: #eee;
+    margin-bottom: 15px;
+  }
+  .section2-1 .cont2 button:hover{
+    background-color: #4942E4;
+   
+    color: #fff;
+    box-shadow: #4a42e4c1 0px 54px 55px, #4a42e4c1 0px -12px 30px, #4a42e4c1 0px 4px 6px, #4a42e4c1 0px 12px 13px, #4a42e4c1 0px -3px 5px;
+  
+  }  
+  .foote{
+    text-align: center;
+    padding: 0 5px ;
+  }
+  .foote p{
+    font-size: 17px;
+    font-weight: 600;
+    color: #000;
+    margin-top: 10px;
+  }
+  .foote p a{
+    text-decoration: none;
+    color: #4942E4;
+    letter-spacing: 1px;
+  }
+  /* message*/
+  .message{
+   position: relative;
+   
+    color: #eee;
+    width:80% ;
+    text-align:center ;
+  }
+  .message h2{
+    font-size: 18px;
+    padding: 15px;
+    border: 2px solid crimson;
+  border-radius: 10px;
+  
+  }
+  
+  
+
+
+
+
+}
+@media (min-width: 600px) and (max-width: 768px){
+
+
+  .section-contant-2{
+    width: 100%;
+    height: 100vh;
+    background: #ffffff52;
+  
+  }
+  .section2{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+   /* background: #ff232352;*/
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  .section2-1{
+    width: 100%;
+    height: 500px;
+    background-color: #ffffff00;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  .section2-1 .cont1{
+    width: 50%;
+    border-radius: 15px;
+    background-color: #eee;
+    display: none;
+  }
+  .section2-1 .cont2{
+    width: 100%;
+   border-radius: 15px;
+    background-color: #c6b3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  .section2-1 .cont2 form{
+    background-color: #4a42e400;
+    width: 100%;
+    display: flex;
+  
+   
+    flex-direction: column;
+    
+  }
+  .section2-1 .cont2 h1{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .section2-1 .cont2 label{
+    font-weight: 600;
+  font-size:20px;
+  color: #000000a6;
+  
+  padding: 5px 10px;
+  }
+  .section2-1 .cont2 input{
+    width: 90%;
+   font-size: 19px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 20px;
+  }
+  
+  .section2-1 .cont2 form button{
+    width: 80%;
+    height: 50px;
+    padding: 10px 15px;
+  margin: auto;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #4942E4;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    transition: 0.5s ease;
+    color: #eee;
+    margin-bottom: 15px;
+  }
+  .section2-1 .cont2 button:hover{
+    background-color: #4942E4;
+   
+    color: #fff;
+    box-shadow: #4a42e4c1 0px 54px 55px, #4a42e4c1 0px -12px 30px, #4a42e4c1 0px 4px 6px, #4a42e4c1 0px 12px 13px, #4a42e4c1 0px -3px 5px;
+  
+  }  
+  .foote{
+    text-align: center;
+    padding: 0 5px ;
+  }
+  .foote p{
+    font-size: 17px;
+    font-weight: 600;
+    color: #000;
+    margin-top: 10px;
+  }
+  .foote p a{
+    text-decoration: none;
+    color: #4942E4;
+    letter-spacing: 1px;
+  }
+  /* message*/
+  .message{
+   position: relative;
+   
+    color: #eee;
+    width:80% ;
+    text-align:center ;
+  }
+  .message h2{
+    font-size: 18px;
+    padding: 15px;
+    border: 2px solid crimson;
+  border-radius: 10px;
+  
+  }
+  
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+ 
+  .section-contant-2{
+    width: 100%;
+    height: 100vh;
+    background: #ffffff52;
+  
+  }
+  .section2{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+   /* background: #ff232352;*/
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  .section2-1{
+    width: 100%;
+    height: 500px;
+    background-color: #ffffff00;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  .section2-1 .cont1{
+    width: 50%;
+    border-radius:0;
+    background-color: #eee;
+    display: none;
+  }
+  .section2-1 .cont2{
+    width: 100%;
+   border-radius: 0;
+    background-color: #c6b3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  .section2-1 .cont2 form{
+    background-color: #4a42e400;
+    width: 100%;
+    display: flex;
+  
+   
+    flex-direction: column;
+    
+  }
+  .section2-1 .cont2 h1{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .section2-1 .cont2 label{
+    font-weight: 600;
+  font-size:20px;
+  color: #000000a6;
+  
+  padding: 5px 10px;
+  }
+  .section2-1 .cont2 input{
+    width: 90%;
+   font-size: 19px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 20px;
+  }
+  
+  .section2-1 .cont2 form button{
+    width: 80%;
+    height: 50px;
+    padding: 10px 15px;
+  margin: auto;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #4942E4;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    transition: 0.5s ease;
+    color: #eee;
+    margin-bottom: 15px;
+  }
+  .section2-1 .cont2 button:hover{
+    background-color: #4942E4;
+   
+    color: #fff;
+    box-shadow: #4a42e4c1 0px 54px 55px, #4a42e4c1 0px -12px 30px, #4a42e4c1 0px 4px 6px, #4a42e4c1 0px 12px 13px, #4a42e4c1 0px -3px 5px;
+  
+  }  
+  .foote{
+    text-align: center;
+    padding: 0 5px ;
+  }
+  .foote p{
+    font-size: 17px;
+    font-weight: 600;
+    color: #000;
+    margin-top: 10px;
+  }
+  .foote p a{
+    text-decoration: none;
+    color: #4942E4;
+    letter-spacing: 1px;
+  }
+  /* message*/
+  .message{
+   position: relative;
+   
+    color: #eee;
+    width:80% ;
+    text-align:center ;
+  }
+  .message h2{
+    font-size: 18px;
+    padding: 15px;
+    border: 2px solid crimson;
+  border-radius: 10px;
+  
+  }
+  
+}
